@@ -1,0 +1,56 @@
+.cart {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .items {
+    margin-bottom: 20px;
+  }
+  
+  .item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-image {
+    width: 100px;
+    margin-right: 20px;
+  }
+  
+  .item-details {
+    flex-grow: 1;
+  }
+  
+  .item-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .like-btn, .quantity-btn, .delete-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .like-btn {
+    width: 23px;
+    height: 20px;
+    background-image: url('./img/heart.svg');
+    background-size: cover;
+  }
+  
+  .like-btn.liked {
+    background-image: url('./img/heart.svg');
+  }
+  
+  .quantity {
+    margin: 0 5px;
+  }
+  
+  .total {
+    font-weight: bold;
+  }
+  
