@@ -1,17 +1,17 @@
 .container {
-    text-align: center;
-    margin-top: 50px;
+    text-align: center; /* Aligns the content of the container to the center */
+    margin-top: 50px; /* Adds a top margin of 50px to the container */
 }
 
 #color-box {
-    width: 200px;
-    height: 200px;
-    background-color: #ccc; /* Default color */
-    margin: 20px auto;
+    width: 200px; /* Sets the width of the color box to 200 pixels */
+    height: 200px; /* Sets the height of the color box to 200 pixels */
+    background-color: #ccc; /* Default background color of the color box */
+    margin: 20px auto; /* Adds a margin of 20px on the top and bottom and auto horizontally centers the color box */
 }
 
 #change-color-btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+    padding: 10px 20px; /* Adds padding of 10 pixels on the top and bottom, and 20 pixels on the left and right of the button */
+    font-size: 16px; /* Sets the font size of the button text to 16 pixels */
+    cursor: pointer; /* Sets the cursor to pointer when hovering over the button, indicating it is clickable */
 }
